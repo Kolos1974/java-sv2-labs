@@ -1,2 +1,2 @@
-# java-sv2-labs
-Java Struktúraváltás 2.0 
+# A Struktúra váltás 2.0 tananyaghoz tartozó gyakorlati feladataim
+
