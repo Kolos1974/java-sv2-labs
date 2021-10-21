@@ -6,7 +6,7 @@ a bonyolultabb típusokat fogjátok alapszinten megismerni.
 ## A nyelv építőkövei
 
 * [x] [Kódolási konvenciók videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709797-kodolasi-konvenciok)
-* [ ] Kódolási konvenciók gyakorlati feladat
+* [x] Kódolási konvenciók gyakorlati feladat
 * [x] [Literálok és lokális változók videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709851-literalok-es-lokalis-valtozok)
 * [ ] Literálok és lokális változók gyakorlati feladat
 * [x] [Kifejezések és utasítások videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709849-kifejezesek-es-utasitasok)
