@@ -33,5 +33,10 @@ public class LocalVariablesMain {
 
         // Can't reach "x" variable!
         // System.out.println("Inside blokk x: "+x);
+
+        // p variable have to be initialiozed
+        // int p;
+        // System.out.println(p);
+
     }
 }
