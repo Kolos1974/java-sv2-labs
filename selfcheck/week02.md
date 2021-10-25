@@ -29,7 +29,7 @@ a bonyolultabb típusokat fogjátok alapszinten megismerni.
 ## Bonyolultabb típusok
 
 * [x] [Tömbök](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709784-tombok)
-* [ ] Tömbök gyakorlati feladat
+* [x] Tömbök gyakorlati feladat
 * [x] [Parancssori paraméterek](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/17496052-parancssori-parameterek)
 * [ ] Parancssori paraméterek gyakorlati feladat
 * [x] [Tömbök tömbje](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709631-tombok-tombje)
