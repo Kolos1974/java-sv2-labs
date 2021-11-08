@@ -12,12 +12,12 @@ public class Fibonacci {
         int previous = 0;
         int actual = 1;
         System.out.print(previous + ", ");
-        for (int i = 1; i < piece; i++) {
-            System.out.print(previous + ", ");
+        System.out.print(actual + ", ");
+        for (int i = 0; i < piece-2; i++) {
+            System.out.print(previous+actual+", ");
+            int temp = previous;
             previous = actual;
-            actual = actual + previous;
+            actual = temp+previous;
         }
-
-
     }
 }
