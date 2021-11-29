@@ -25,7 +25,7 @@ fogtok megismerkedni.
 
 ## Konzultációk
 
-* [ ] 2021-11-29 konzultáció részvétel/videó
+* [x] 2021-11-29 konzultáció részvétel/videó
 * [ ] 2021-11-29 konzultáció gyakorlati feladat
 * [ ] 2021-11-30 konzultáció részvétel/videó
 * [ ] 2021-11-30 konzultáció gyakorlati feladat
