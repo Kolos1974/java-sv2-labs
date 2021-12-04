@@ -25,11 +25,12 @@ fogtok megismerkedni.
 
 ## Konzultációk
 
-* [x] 2021-11-29 konzultáció részvétel/videó
+* [x] 2021-11-29 konzultáció részvétel/videó (Bárczay Kristóf)
 * [ ] 2021-11-29 konzultáció gyakorlati feladat
-* [x] 2021-11-30 konzultáció részvétel/videó
+* [x] 2021-11-30 konzultáció részvétel/videó (Bárczay Kristóf)
 * [ ] 2021-11-30 konzultáció gyakorlati feladat
-* [x] 2021-12-02 konzultáció részvétel/videó
+* [ ] 2021-12-01 konzultáció részvétel/videó (Kovács Enikő)
+* [x] 2021-12-02 konzultáció részvétel/videó (Vicián István)
 * [ ] 2021-12-02 konzultáció gyakorlati feladat
-* [ ] 2021-12-03 konzultáció részvétel/videó
+* [x] 2021-12-03 konzultáció részvétel/videó (Vicián István)
 * [ ] 2021-12-03 konzultáció gyakorlati feladat
