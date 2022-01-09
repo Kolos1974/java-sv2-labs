@@ -34,7 +34,7 @@ public class Student {
     public String getMarks(){
         String result = "";
         for (Mark mark : marks){
-            result = result + mark.getSubject().getSubjectName()+": "+mark.getMarkType().getText()+
+            result = result + mark.getSubject().getSubjectName()+": "+mark.getMarkType().getDescription()+
                     '('+mark.getMarkType().getValue()+')';
         }
         return result;

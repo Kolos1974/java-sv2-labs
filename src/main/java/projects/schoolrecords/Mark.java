@@ -19,9 +19,13 @@ public class Mark {
     }
 
     public Mark(String markType, Subject subject, Tutor tutor) {
+        /*
         this.markType = MarkType.getMarkType(markType);
         this.subject = subject;
         this.tutor = tutor;
+        */
+        this(MarkType.valueOf(markType), subject, tutor);
+
     }
 
     public MarkType getMarkType() {
@@ -38,7 +42,7 @@ public class Mark {
 
     @Override
     public String toString() {
-        return markType.getText()+'('+markType.getValue()+')';
+        return markType.getDescription()+'('+markType.getValue()+')';
     }
 
 }

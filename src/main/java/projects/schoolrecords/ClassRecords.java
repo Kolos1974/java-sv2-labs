@@ -115,12 +115,19 @@ public class ClassRecords {
     }
 
     public String listStudentNames(){
+        /*
         String text = "";
         for (Student element : students){
            text = text+""+element.getStudentName()+", ";
         }
         text = text.substring(0, text.length()-2);
         return text;
+        */
+        StringBuilder stringBuilder = new StringBuilder("");
+        for (Student element : students){
+            stringBuilder.append(element.getStudentName()+", ");
+        }
+        return stringBuilder.substring(0, stringBuilder.length()-2);
     }
 
     private boolean isEmpty(String str) {

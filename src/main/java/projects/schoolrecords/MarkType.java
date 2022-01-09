@@ -4,17 +4,17 @@ public enum MarkType {
     A(5, "excellent"), B(4, "very good"), C(3, "improvement needed"), D(2, "close fail"), F(1, "fail");
 
     private int value;
-    private String text;
+    private String description;
 
 
-    MarkType(int value, String text) {
+    MarkType(int value, String description) {
         this.value = value;
-        this.text = text;
+        this.description = description;
     }
 
-    static MarkType getMarkType(String text){
+    static MarkType getMarkType(String description){
         for (MarkType element : MarkType.values()){
-            if (element.text.equals(text)){
+            if (element.description.equals(description)){
                 return element;
             }
         }
@@ -25,7 +25,7 @@ public enum MarkType {
         return value;
     }
 
-    public String getText() {
-        return text;
+    public String getDescription() {
+        return description;
     }
 }
