@@ -1,6 +1,7 @@
 package projects.catalog;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class CatalogItem {
@@ -8,8 +9,8 @@ public class CatalogItem {
     private int price;
     private String registrationNumber;
 
-    public CatalogItem(String registrationNumber, int price, List<Feature> features) {
-        this.features = features;
+    public CatalogItem(String registrationNumber, int price, Feature... features) {
+        this.features = Arrays.asList(features);
         this.price = price;
         this.registrationNumber = registrationNumber;
     }
@@ -27,29 +28,56 @@ public class CatalogItem {
     }
 
     public List<String> getContributors(){
-        return new ArrayList<>();
+       List<String> contributors = new ArrayList<>();
+       for (Feature feature : features){
+           contributors.addAll(feature.getContributors());
+       }
+       return contributors;
     }
 
     public List<String> getTitles(){
-        return new ArrayList<>();
+        List<String> titles = new ArrayList<>();
+        for (Feature feature : features){
+            titles.add(feature.getTitle());
+        }
+        return titles;
     }
 
     public int fullLengthAtOneItem(){
-
-        return 0;
+        int sum = 0;
+        for (Feature feature : features){
+            if (feature instanceof AudioFeatures){
+                sum = sum + ((AudioFeatures) feature).getLength();
+            }
+        }
+        return sum;
     }
 
     public boolean hasAudioFeature(){
-
-        return true;
+        for (Feature feature : features){
+            if(feature instanceof AudioFeatures){
+                return true;
+            }
+        }
+        return false;
     }
 
     public boolean hasPrintedFeature(){
-
-        return true;
+        for (Feature feature : features){
+            if(feature instanceof PrintedFeatures){
+                return true;
+            }
+        }
+        return false;
     }
 
     public int numberOfPagesAtOneItem(){
-        return 0;
+        int pages = 0;
+        for (Feature feature : features){
+            if (feature instanceof PrintedFeatures){
+                pages = pages +((PrintedFeatures) feature).getNumberOfPages();
+            }
+        }
+        return pages;
     }
 }

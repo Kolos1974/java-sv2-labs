@@ -18,24 +18,34 @@ public class SearchCriteria {
     }
 
     public boolean hasContributor(){
-        return true;
+        return (!(contributor==null));
     }
 
     public boolean hasTitle(){
-        return true;
+        return (!(title==null));
     }
 
-    /*
-    public SearchCriteria createByBoth(String contributor, String title){
+    public static SearchCriteria createByBoth(String title, String contributor){
+        if (Validators.isBlank(contributor) || Validators.isBlank(title)){
+            throw new IllegalArgumentException("Invalid search parameter");
+        }
+        return new SearchCriteria(contributor, title);
+    }
+
+    public static SearchCriteria createByContributor(String contributor){
+        if (Validators.isBlank(contributor)){
+            throw new IllegalArgumentException("Invalid contributor");
+        }
+        return new SearchCriteria(contributor, null);
 
     }
 
-    public SearchCriteria createByContributor(String contributor){
-
+    public static SearchCriteria createByTitle(String title){
+        if (Validators.isBlank(title)){
+            throw new IllegalArgumentException("Invalid title");
+        }
+        return new SearchCriteria(null, title);
     }
 
-    public SearchCriteria createByTitle(String title){
 
-    }
-    */
 }
