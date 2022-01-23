@@ -4,12 +4,12 @@ Ezen a héten a kollekciókkal fogtok részletesebben megismerkedni.
 
 ## Generikusok
 
-* [ ] [Generikusok használata, diamond operátor videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/10769614-generikusok-hasznalata-diamond-operator)
+* [x] [Generikusok használata, diamond operátor videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/10769614-generikusok-hasznalata-diamond-operator)
 * [ ] Generikusok használata, diamond operátor gyakorlati feladat
 
 ## Kollekciók
 
-* [ ] [Az equals() és hashCode() metódusok videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/10769615-az-equals-es-hashcode-metodusok)
+* [x] [Az equals() és hashCode() metódusok videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/10769615-az-equals-es-hashcode-metodusok)
 * [ ] Az equals() és hashCode() metódusok gyakorlati feladat
 * [ ] [List, ArrayList kontra LinkedList videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/10769616-list-arraylist-kontra-linkedlist)
 * [ ] List, ArrayList kontra LinkedList gyakorlati feladat
