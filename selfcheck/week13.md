@@ -44,7 +44,7 @@ mindenképpen végezze el ezeket a leckéket is.
 * [ ] 2022-01-18 konzultáció részvétel/videó (Bárczay Kristóf)
 * [ ] 2022-01-18 konzultáció gyakorlati feladat
 * [x] 2022-01-20 konzultáció részvétel/videó (Kovács Enikő)
-* [ ] 2022-01-20 konzultáció részvétel/videó 
+* [x] 2022-01-20 konzultáció részvétel/videó 
 * [ ] 2022-01-20 konzultáció gyakorlati feladat
-* [ ] 2022-01-21 konzultáció részvétel/videó
+* [x] 2022-01-21 konzultáció részvétel/videó
 * [ ] 2022-01-21 konzultáció gyakorlati feladat
