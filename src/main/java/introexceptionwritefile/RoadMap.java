@@ -16,7 +16,7 @@ public class RoadMap {
         roadmap.add("Siófok");
         roadmap.add("Balatonszárszó");
         try {
-            Files.write(Paths.get("roadmap.txt"), roadmap);
+            Files.write(Paths.get("src/main/resources/roadmap.txt"), roadmap);
         } catch (IOException e) {
             e.printStackTrace();
         }

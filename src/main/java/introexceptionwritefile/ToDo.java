@@ -20,7 +20,7 @@ public class ToDo {
         } while (!line.equals("x"));
 
         try {
-            Files.write(Paths.get("todos.txt"), todos);
+            Files.write(Paths.get("src/main/resources/todos.txt"), todos);
         } catch (IOException e) {
             throw new IOException("Can't write a file!");
         }
