@@ -11,5 +11,5 @@ Ezen a héten nem lesz új elméleti tananyag, a lambda kifejezéseket és a str
 * [x] 2022-01-26 konzultáció részvétel/videó (Kovács Enikő)
 * [x] 2022-01-27 konzultáció részvétel/videó
 * [ ] 2022-01-27 konzultáció gyakorlati feladat
-* [ ] 2022-01-28 konzultáció részvétel/videó
+* [x] 2022-01-28 konzultáció részvétel/videó
 * [ ] 2022-01-28 konzultáció gyakorlati feladat
