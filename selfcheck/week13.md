@@ -6,7 +6,7 @@ Ezen a héten a lambda kifejezések és a streamek használatával fogtok részl
 
 * [x] [Bevezetés a lambda kifejezések használatába videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/31314536-bevezetes-a-lambda-kifejezesek-hasznalataba)
 * [x] [Bevezetés a lambda kifejezések használatába - gyakorlat videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/31315397-bevezetes-a-lambda-kifejezesek-hasznalataba-gyakorlat)
-* [ ] Bevezetés a lambda kifejezések használatába gyakorlati feladat
+* [x] Bevezetés a lambda kifejezések használatába gyakorlati feladat
 * [x] [Bevezetés az Optional osztály használatába videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/31319354-bevezetes-az-optional-osztaly-hasznalataba)
 * [ ] Bevezetés az Optional osztály használatába gyakorlati feladat
 * [x] [Bevezetés a streamek használatába videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/31315582-bevezetes-a-streamek-hasznalataba)
@@ -14,7 +14,7 @@ Ezen a héten a lambda kifejezések és a streamek használatával fogtok részl
 * [x] [Bevezetés a streamek használatába - gyakorlat - források videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/31316404-bevezetes-a-streamek-hasznalataba-gyakorlat-forrasok)
 * [x] [Bevezetés a streamek használatába - gyakorlat - közbülső és lezáró műveletek videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/31319324-bevezetes-a-streamek-hasznalataba-gyakorlat-kozbulso-es-lezaro-muveletek)
 * [ ] [Programozási tételek streamek használatával - gyakorlati feladatok](https://e-learning.training360.com/courses/take/java-se-halado-koll/texts/31337872-programozasi-tetelek-streamek-hasznalataval-gyakorlati-feladatok)
-* [x] [Programozási tételek streamek használatával - megoldás videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/31319389-programozasi-tetelek-streamek-hasznalataval-megoldas)
+* [ ] [Programozási tételek streamek használatával - megoldás videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/31319389-programozasi-tetelek-streamek-hasznalataval-megoldas)
 
 ## Lambda kifejezések és streamek - nem kötelező, de nagyon ajánlott
 
